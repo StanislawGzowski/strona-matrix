@@ -39,3 +39,26 @@ body {
     background-color: black;
     color: limegreen;
 }
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: limegreen;
+}
+
+.side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: black;
+    padding: 20px;
+}
+
+.main {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: black;
+    padding: 20px;
+}
+
